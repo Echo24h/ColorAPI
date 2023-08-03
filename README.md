@@ -1,6 +1,6 @@
 # ColorAPI Minecraft Plugin
 
-**Plugin page:** [download .jar](https://www.spigotmc.org/resources/chatformatting-1-16-x-1-20-x.110900/)
+**Plugin page:** [download .jar](https://www.spigotmc.org)
 
 Tested Minecraft Versions: 1.16 - 1.20
 
