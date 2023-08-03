@@ -39,6 +39,6 @@ public final class ColorAPI extends JavaPlugin {
 
     public String translateColorCodes(ColorAPI plugin, String text) {
         Bukkit.broadcastMessage("COlorAPI OK");
-        return plugin.getColorFormat().formatText(text);
+        return this.colorFormat.formatText(text);
     }
 }
