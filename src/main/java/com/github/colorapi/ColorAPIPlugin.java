@@ -6,14 +6,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.github.colorapi.config.ColorConfig;
 
 public final class ColorAPIPlugin extends JavaPlugin {
-
-    private static ColorAPIPlugin instance;
     private ColorConfig colorConfig;
     private ColorFormat colorFormat;
     @Override
     public void onEnable() {
 
-        this.instance = this;
         this.colorConfig = new ColorConfig(this);
         this.colorFormat = new ColorFormat(this);
 
@@ -33,9 +30,5 @@ public final class ColorAPIPlugin extends JavaPlugin {
 
     public ColorConfig getColorConfig() {
         return colorConfig;
-    }
-
-    public static ColorAPIPlugin getInstance() {
-        return instance;
     }
 }
