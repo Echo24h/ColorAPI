@@ -1,0 +1,57 @@
+# ----------- Information -----------
+
+# Author: Echo24h
+# This plugin API is licensed
+
+# Plugin API Page: https://www.spigotmc.org/resources/chatformatting-1-16-x-1-20-x.110900/
+
+# Source Code: https://github.com/Echo24h/ChatFormatting
+
+# Author Page: https://www.spigotmc.org/members/echo24h.1711225/
+
+# Discord: https://discord.com/invite/Xf3PjwXzKg
+
+# Donation Link: https://www.paypal.com/donate/?hosted_button_id=J4Y27JYWLYLBG
+
+# ----------- Config -----------
+
+# For example, in chat:
+# - '&y': Light Blue
+# - '&z': Red
+# - '&X': Gradient Red-Green
+
+colors:
+  x:
+    color: "#ECFF00"
+  y:
+    color: "#B2EAF4" # Light Blue
+  z:
+    color: "#FF0000" # Red
+  a:
+    color: "#FFA500" # Orange
+  b:
+    color: "#FFC0CB" # Pink
+  c:
+    color: "#008000" # Green
+  d:
+    color: "#800080" # Purple
+
+gradients:
+  X:
+    color1: "#FF0000" # Red
+    color2: "#00FF00" # Green
+  Y:
+    color1: "#0000FF" # Blue
+    color2: "#FFFF00" # Yellow
+  Z:
+    color1: "#FF00FF" # Magenta
+    color2: "#00FFFF" # Cyan
+  A:
+    color1: "#FFA500" # Orange
+    color2: "#FFC0CB" # Pink
+  B:
+    color1: "#008000" # Green
+    color2: "#800080" # Purple
+  C:
+    color1: "#800000" # Maroon
+    color2: "#00CED1" # Dark Turquoise
