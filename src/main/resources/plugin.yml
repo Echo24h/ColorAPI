@@ -1,6 +1,6 @@
 name: ColorAPI
 version: '${project.version}'
-main: com.github.colorapi.ColorAPIPlugin
+main: com.github.colorapi.ColorAPI
 api-version: '1.16'
 
 author: Echo24h
