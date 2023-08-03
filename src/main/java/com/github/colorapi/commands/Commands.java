@@ -23,7 +23,7 @@ public class Commands implements CommandExecutor {
                 }
             }
             plugin.reloadPlugin();
-            sender.sendMessage("§a[ColorAPIPlugin] successfully reloaded.");
+            sender.sendMessage("§a[ColorAPI] successfully reloaded.");
             return true;
         }
         return false;

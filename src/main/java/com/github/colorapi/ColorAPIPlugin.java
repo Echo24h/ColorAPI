@@ -2,7 +2,6 @@ package com.github.colorapi;
 
 import com.github.colorapi.commands.Commands;
 import com.github.colorapi.format.ColorFormat;
-import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import com.github.colorapi.config.ColorConfig;
 
