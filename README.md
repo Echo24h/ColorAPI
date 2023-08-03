@@ -1,4 +1,4 @@
-# ChatFormatting Minecraft Plugin
+# ColorAPI Minecraft Plugin
 
 **Plugin page:** [download .jar](https://www.spigotmc.org/resources/chatformatting-1-16-x-1-20-x.110900/)
 
