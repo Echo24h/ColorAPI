@@ -3,6 +3,7 @@ package com.github.colorapi;
 import com.github.colorapi.commands.Commands;
 import com.github.colorapi.format.ColorFormat;
 import org.bukkit.Bukkit;
+import org.bukkit.plugin.ServicePriority;
 import org.bukkit.plugin.java.JavaPlugin;
 import com.github.colorapi.config.ColorConfig;
 
@@ -12,6 +13,7 @@ public final class ColorAPI extends JavaPlugin {
     @Override
     public void onEnable() {
 
+        getServer().getServicesManager().register(ColorAPI.class, this, this, ServicePriority.High);
         this.colorConfig = new ColorConfig(this);
         this.colorFormat = new ColorFormat(this);
 
