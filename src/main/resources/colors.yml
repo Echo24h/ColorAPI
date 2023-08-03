@@ -1,11 +1,11 @@
 # ----------- Information -----------
 
 # Author: Echo24h
-# This plugin API is licensed
+# This plugin ColorAPI is licensed
 
 # Plugin API Page: https://www.spigotmc.org/resources/chatformatting-1-16-x-1-20-x.110900/
 
-# Source Code: https://github.com/Echo24h/ChatFormatting
+# Source Code: https://github.com/Echo24h/ColorAPI
 
 # Author Page: https://www.spigotmc.org/members/echo24h.1711225/
 
@@ -15,7 +15,7 @@
 
 # ----------- Config -----------
 
-# For example, in chat:
+# For example, in your text
 # - '&y': Light Blue
 # - '&z': Red
 # - '&X': Gradient Red-Green

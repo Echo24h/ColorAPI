@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../ChatFormatting/ChatFormatting.iml" filepath="$PROJECT_DIR$/../ChatFormatting/ChatFormatting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ColorsAPI.iml" filepath="$PROJECT_DIR$/ColorsAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ColorAPI.iml" filepath="$PROJECT_DIR$/ColorAPI.iml" />
     </modules>
   </component>
 </project>

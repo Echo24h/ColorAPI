@@ -1,4 +1,4 @@
-package org.echo.colorsapi.format;
+package com.github.colorapi.format;
 
 import java.awt.*;
 

@@ -1,23 +1,23 @@
-package org.echo.colorsapi.format;
+package com.github.colorapi.format;
 
 import net.md_5.bungee.api.ChatColor;
-import org.echo.colorsapi.ColorsAPI;
+import com.github.colorapi.ColorAPIPlugin;
 
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ColorsFormat {
+public class ColorFormat {
 
-    private ColorsAPI plugin;
+    private ColorAPIPlugin plugin;
 
-    public ColorsFormat(ColorsAPI plugin) {
+    public ColorFormat(ColorAPIPlugin plugin) {
         this.plugin = plugin;
     }
 
     public String formatText(String text) {
 
-        String colorsCode = plugin.getColorsConfig().getColorsCode();
+        String colorsCode = plugin.getColorConfig().getColorsCode();
 
         Pattern pattern = getCustomPattern(colorsCode);
 
@@ -45,7 +45,7 @@ public class ColorsFormat {
                 String colorCode = String.valueOf(colorChar);
 
                 // Get Gradient
-                List<String> hexGradient = plugin.getColorsConfig().getGradient(colorCode);
+                List<String> hexGradient = plugin.getColorConfig().getGradient(colorCode);
 
                 // Gradient
                 if (hexGradient != null) {
@@ -60,7 +60,7 @@ public class ColorsFormat {
                 }
                 else {
                     // Custom colors
-                    ChatColor color = plugin.getColorsConfig().getColor(colorCode);
+                    ChatColor color = plugin.getColorConfig().getColor(colorCode);
 
                     if (color != null) {
                         stringBuilder.append(color)

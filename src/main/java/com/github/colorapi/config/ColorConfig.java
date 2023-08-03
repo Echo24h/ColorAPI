@@ -1,10 +1,10 @@
-package org.echo.colorsapi.config;
+package com.github.colorapi.config;
 
+import com.github.colorapi.ColorAPIPlugin;
+import com.github.colorapi.format.Utils;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.echo.colorsapi.ColorsAPI;
-import org.echo.colorsapi.format.Utils;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -12,9 +12,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ColorsConfig {
+public class ColorConfig {
 
-    private ColorsAPI plugin;
+    private ColorAPIPlugin plugin;
 
     private YamlConfiguration yaml;
 
@@ -24,7 +24,7 @@ public class ColorsConfig {
 
     private String colorsCode;
 
-    public ColorsConfig(ColorsAPI plugin) {
+    public ColorConfig(ColorAPIPlugin plugin) {
 
         colorsCode = "abcdef0123456789";
 

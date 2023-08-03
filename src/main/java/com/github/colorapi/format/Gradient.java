@@ -1,4 +1,4 @@
-package org.echo.colorsapi.format;
+package com.github.colorapi.format;
 
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Color;
