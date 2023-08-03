@@ -1,6 +1,6 @@
 package com.github.colorapi.commands;
 
-import com.github.colorapi.ColorAPIPlugin;
+import com.github.colorapi.ColorAPI;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -8,9 +8,9 @@ import org.bukkit.entity.Player;
 
 public class Commands implements CommandExecutor {
 
-    private ColorAPIPlugin plugin;
+    private ColorAPI plugin;
 
-    public Commands(ColorAPIPlugin main) { this.plugin = main; }
+    public Commands(ColorAPI main) { this.plugin = main; }
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

@@ -1,25 +1,25 @@
 name: ColorAPI
 version: '${project.version}'
-main: com.github.colorapi.ColorAPIPlugin
+main: com.github.colorapi.ColorAPI
 api-version: '1.16'
 
 author: Echo24h
 description: A plugin API to allow players to create custom color codes
 
 permissions:
-  colorsapi.reload:
-    description: Allows you to reload ColorsAPI plugin
+  colorapi.reload:
+    description: Allows you to reload ColorAPI plugin
     default: op
-  colorsapi.*:
+  colorapi.*:
     description: Wildcard permission
     default: op
     children:
-      - colorsapi.reload: true
+      - colorapi.reload: true
 
 commands:
-  colorsapi:
+  colorapi:
     subcommands:
       reload:
-        description: Reload ColorsAPI plugin
+        description: Reload ColorAPI plugin
         usage: /<command> reload
-        permission: colorsapi.reload
+        permission: colorapi.reload

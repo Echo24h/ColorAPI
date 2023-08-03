@@ -1,7 +1,7 @@
 package com.github.colorapi.format;
 
+import com.github.colorapi.ColorAPI;
 import net.md_5.bungee.api.ChatColor;
-import com.github.colorapi.ColorAPIPlugin;
 
 import java.util.List;
 import java.util.regex.Matcher;
@@ -9,9 +9,9 @@ import java.util.regex.Pattern;
 
 public class ColorFormat {
 
-    private ColorAPIPlugin plugin;
+    private ColorAPI plugin;
 
-    public ColorFormat(ColorAPIPlugin plugin) {
+    public ColorFormat(ColorAPI plugin) {
         this.plugin = plugin;
     }
 
