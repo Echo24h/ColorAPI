@@ -8,4 +8,5 @@ public class ColorAPI {
         Bukkit.broadcastMessage("COlorAPI OK");
         return ColorAPIPlugin.getInstance().getColorFormat().formatText(text);
     }
+
 }
