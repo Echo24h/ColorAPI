@@ -9,15 +9,15 @@ import java.util.regex.Pattern;
 
 public class ColorFormat {
 
-    private ColorAPI plugin;
+    private ColorAPI colorAPI;
 
-    public ColorFormat(ColorAPI plugin) {
-        this.plugin = plugin;
+    public ColorFormat(ColorAPI colorAPI) {
+        this.colorAPI = colorAPI;
     }
 
     public String formatText(String text) {
 
-        String colorsCode = plugin.getColorConfig().getColorsCode();
+        String colorsCode = colorAPI.getColorConfig().getColorsCode();
 
         Pattern pattern = getCustomPattern(colorsCode);
 
@@ -45,7 +45,7 @@ public class ColorFormat {
                 String colorCode = String.valueOf(colorChar);
 
                 // Get Gradient
-                List<String> hexGradient = plugin.getColorConfig().getGradient(colorCode);
+                List<String> hexGradient = colorAPI.getColorConfig().getGradient(colorCode);
 
                 // Gradient
                 if (hexGradient != null) {
@@ -60,7 +60,7 @@ public class ColorFormat {
                 }
                 else {
                     // Custom colors
-                    ChatColor color = plugin.getColorConfig().getColor(colorCode);
+                    ChatColor color = colorAPI.getColorConfig().getColor(colorCode);
 
                     if (color != null) {
                         stringBuilder.append(color)

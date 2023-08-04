@@ -1,10 +1,10 @@
 name: ColorAPI
 version: '${project.version}'
-main: com.github.colorapi.ColorAPI
+main: com.github.colorapi.ColorAPIPlugin
 api-version: '1.16'
 
 author: Echo24h
-description: A plugin API to allow players to create custom color codes
+description: A plugin API to allow use and create custom color codes
 
 permissions:
   colorapi.reload:
