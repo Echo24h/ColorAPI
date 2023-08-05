@@ -28,7 +28,7 @@ Easily integrate ColorAPI into all your plugins. Enhance your creations by explo
 String text = "&y" + "This is a custom colored broadcast!";
 if (colorAPI != null)
     text = colorAPI.translateColorCodes(text);
-Bukkit.broadcastMessage(test);
+Bukkit.broadcastMessage(text);
 ```
 ### Include the API
 
