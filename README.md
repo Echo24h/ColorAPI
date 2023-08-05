@@ -18,53 +18,6 @@ This plugin allows you to create entirely new and bespoke color codes, with grad
 
 Effortlessly adjust color settings using the user-friendly `config.yml` file. Adapt your color scheme to complement your server theme and captivate players with visually stunning designs.
 
-### Config.yml
-
-```yaml
-# ----------- Config -----------
-
-# For example, in your text
-# - '&y': Light Blue
-# - '&z': Red
-# - '&X': Gradient Red-Green
-
-colors:
-  x:
-    color: "#ECFF00"
-  y:
-    color: "#B2EAF4" # Light Blue
-  z:
-    color: "#FF0000" # Red
-  a:
-    color: "#FFA500" # Orange
-  b:
-    color: "#FFC0CB" # Pink
-  c:
-    color: "#008000" # Green
-  d:
-    color: "#800080" # Purple
-
-gradients:
-  X:
-    color1: "#FF0000" # Red
-    color2: "#00FF00" # Green
-  Y:
-    color1: "#0000FF" # Blue
-    color2: "#FFFF00" # Yellow
-  Z:
-    color1: "#FF00FF" # Magenta
-    color2: "#00FFFF" # Cyan
-  A:
-    color1: "#FFA500" # Orange
-    color2: "#FFC0CB" # Pink
-  B:
-    color1: "#008000" # Green
-    color2: "#800080" # Purple
-  C:
-    color1: "#800000" # Maroon
-    color2: "#00CED1" # Dark Turquoise
-```
-
 ## For Developers
 
 Easily integrate ColorAPI into all your plugins. Enhance your creations by exploiting the full potential of colors:
