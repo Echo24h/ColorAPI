@@ -1,6 +1,6 @@
 # ColorAPI Minecraft Plugin
 
-**Plugin page:** [download .jar](https://www.spigotmc.org)
+**Plugin page:** [download .jar](https://www.spigotmc.org/resources/colorapi.111792/)
 
 Tested Minecraft Versions: 1.16 - 1.20
 
