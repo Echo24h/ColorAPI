@@ -74,6 +74,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class MyPlugin extends JavaPlugin {
 
     private static ColorAPI colorAPI;
+
     @Override
     public void onEnable() {
         if (!setupColorAPI()) {
